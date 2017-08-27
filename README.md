@@ -1,4 +1,4 @@
-##ng2-timeout-dialog
+## ng2-timeout-dialog
 
 Timeout dialog for your Angular applications.
 
