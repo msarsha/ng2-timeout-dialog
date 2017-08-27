@@ -31,7 +31,7 @@ component:
 
 #### Properties:
 
-`[timeoutAfter]` (seconds) - Number of seconds the `timout` event will be fired after.
+`[timeoutAfter]` (seconds) - Number of seconds the `timeout` event will be fired after.
 
 `[warningAfter]` (seconds) - Optional property to show a dialog before the `timeout` event is fired.
 
