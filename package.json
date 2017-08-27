@@ -1,0 +1,42 @@
+{
+  "name": "ng2-timeout-dialog",
+  "version": "0.1.0",
+  "description": "Timeout dialog for Angular",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "module": "index.js",
+  "scripts": {
+    "build": "ngc -p tsconfig-aot.json && cp package.json README.md ./dist"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "ng2",
+    "timout",
+    "dialog"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msarsha/ng2-timeout-dialog"
+  },
+  "author": "Matan Sar-Shalom <smatan84@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.4.3",
+    "typescript": "^2.4.2",
+    "zone.js": "^0.8.16"
+  },
+  "peerDependencies": {
+    "@angular/common": "^4.0.0",
+    "@angular/compiler": "^4.0.0",
+    "@angular/compiler-cli": "^4.0.0",
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.4.3",
+    "typescript": "^2.4.2",
+    "zone.js": "^0.8.16"
+  }
+}

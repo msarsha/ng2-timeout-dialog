@@ -1,0 +1,10 @@
+node_modules
+.DS_Store
+.idea
+dist
+*.metadata.json
+compiled
+aot
+example
+npm-debug.log
+.vscode
