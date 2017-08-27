@@ -11,7 +11,7 @@ import {TimeoutService} from './timeout.service';
         </ng-content>
       </div>
       <div *ngIf="ref.children.length == 0" class="timeout-default-box timeout-container">
-        <timeout-default></timeout-default>
+        <h2>Application will timeout soon.</h2>
       </div>
     </div>
   `,
@@ -22,6 +22,12 @@ import {TimeoutService} from './timeout.service';
       width: 250px;
       background-color: antiquewhite;
       border-radius: 5px;
+      padding: 3px;
+    }
+
+    .timeout-default-box h2{
+      margin-top: 50px;
+      overflow-wrap: break-word;
     }
     
     .fullscreen {
