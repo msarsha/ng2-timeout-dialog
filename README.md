@@ -29,6 +29,8 @@ component:
   }
 ````
 
+Any mouse click or key press will reset the timeout counting.
+
 #### Properties:
 
 `[timeoutAfter]` (seconds) - Number of seconds the `timeout` event will be fired after.
