@@ -33,8 +33,7 @@ export class TimeoutDirective implements OnInit, OnDestroy {
     this.startTimeoutCounting(parseInt(this.warningAfter, 10));
   }
 
-  @HostListener('window:click')
-  @HostListener('window:contextmenu')
+  @HostListener('window:mousedown')
   @HostListener('window:keydown')
   resetTimeout() {
     this.clearTimeout();
